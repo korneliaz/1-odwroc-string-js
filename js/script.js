@@ -6,8 +6,11 @@ function odwrocString(string) {
 
 console.log(odwrocString("Akademia108"));
 
-let string = "Akademia 108";
-console.log(string);
-let output = string.split("").reverse().join("");
 
-console.log(output)
+function odwrocString(string) {
+let result = string.split("").reverse().join("");
+return result;
+
+}
+
+console.log(odwrocString("Akademia108"));
